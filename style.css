@@ -1,0 +1,125 @@
+	.color{
+	    color:red;
+	}
+	.bgrgba{
+	    background-color:rgba(255, 99, 71, 0.5);
+	}
+	.bghex{
+	    background-color:#ff6347;
+	}
+	.bghsl{
+	    background-color:hsl(240, 100%, 50%);
+	}
+	.ol{
+		text-decoration: overline;
+		text-decoration-color: blue;
+		text-decoration-style: solid;
+	}
+
+	.lt{
+		text-decoration: line-through;
+		text-decoration-color: green;
+		text-decoration-style: double;
+		
+	}
+
+	.ul{
+		text-decoration: underline;
+		text-decoration-color: red;
+		text-decoration-style: dotted;
+		text-decoration-thickness:10px;
+	}
+
+	.oul{
+		  text-decoration: overline underline;
+		  text-decoration-color: yellow;
+		  text-decoration-style: wavy;
+		}
+	
+.center{
+      text-align: center;
+	  
+}
+.right{
+      text-align:right;
+}
+.left{
+      text-align:left;
+}
+.justify{
+    border:1px solid red;
+	width:40%;
+	text-align:justify;
+}
+.ta {
+  text-align-last: right;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.ta1 {
+  text-align-last: center;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 2;
+}
+.line{
+    line-height: 1.8;
+}
+
+.ta2{
+  text-align-last: justify;
+  font-family: "Times New Roman", Times, serif;
+}
+.dir{
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+img.baseline{
+  vertical-align: baseline;
+}
+
+.top{
+  vertical-align: text-top;
+}
+
+img.bottom {
+  vertical-align: text-bottom;
+}
+
+.sub{
+  vertical-align: sub;
+}
+
+img.sup{
+  vertical-align: super;
+}
+.upper {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-shadow: 2px 2px 5px blue;
+  font-size:25px;
+}
+
+.lower {
+  text-transform: lowercase;
+  text-indent: 50px;
+}
+
+.cap {
+  text-transform: capitalize;
+  word-spacing: 10px;
+}
+.ti{
+	text-indent:50px;
+}
+.tspace,.lsp{
+	letter-spacing:5px;
+}
+.tspace,.lsh{
+	line-height:5;
+}
+.tspace,.ws{
+	word-spacing:10px;
+}
+.w-s{
+	white-space:nowrap;
+}
